@@ -11,9 +11,9 @@ title                    : "Nisheet Das"
 title_separator          : "-"
 name                     : &name "Nisheet Das"
 description              : &description "Software Developer at Cult.fit"
-url                      : https://nisheetd.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nisheetdas1.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "nisheetdas1/nisheetd.github.io"
+repository               : "nisheetdas1/nisheetdas1.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "nisheetdas1"
   google_plus      :
   keybase          :
   instagram        :
