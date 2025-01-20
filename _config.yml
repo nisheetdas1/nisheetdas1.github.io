@@ -99,10 +99,10 @@ author:
   github           : "nisheetdas1"
   google_plus      :
   keybase          :
-  instagram        : "https://www.instagram.com/nisheetd/"
+  instagram        : "nisheetd"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "linkedin.com/in/nisheetdas1"
+  linkedin         : "nisheetdas1"
   orcid            :
   pinterest        :
   soundcloud       :
@@ -210,14 +210,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
@@ -237,13 +237,13 @@ defaults:
       share: true
       comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:
