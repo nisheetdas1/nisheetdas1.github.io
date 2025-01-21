@@ -37,7 +37,7 @@ Work experience
   * Implemented numerous responsive, highly configurable and dynamic mobile application screens with optimized performance in react native and wiring them with the Gateway API layer (MVC architecture) using Node JS, Inversify JS and Typescript.
 
 ## South Eastern Coalfields Limited (SECL), Coal India Ltd.
-* Database Management Internship ((June 2017 - July 2017))
+* Database Management Internship (June 2017 - July 2017)
   * Programming in a virtual environment in COBOL for employ data management in SECL Headquarter, Bilaspur.
   
 Skills
