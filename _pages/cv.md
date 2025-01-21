@@ -18,15 +18,7 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 ## Cult.fit (Formerly Cure.fit)
 * Senior Full Stack Software Engineer (Jan 2023 - Jul 2024)
   * Implemented web scrapper scheduler engine for scrapping 10000+ 1P and competitor SKUs daily on marketplaces like Amazon, Flipkart, etc. providing visibility to market price sensitivity. Used webscraper.io and SmartProxy (3P) to dodge rate-limiting.
