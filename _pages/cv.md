@@ -13,12 +13,14 @@ redirect_from:
 
 Education
 ======
-* B.Tech. in Electrical Engineering, Delhi Technological University (Formerly Delhi College of Engineering), 2019
-* M.S. in Information Systems, Carnegie Mellon University, 2024 (Current)
+* M.S. in Information Systems, Carnegie Mellon University (Expected August 2025)
+  * Coursework: Introduction to Machine Learning, Introduction to Deep Learning, AI Engineering, Distributed Systems, Object Oriented Programming in Java, Database Management Systems, Linear Programming
+* B.Tech. in Electrical Engineering (Minor in Computer Science), Delhi Technological University (Formerly Delhi College of Engineering), June 2019
+  * Coursework: Programming Fundamentals, Algorithm Analysis and Design, Operating Systems, Computer Networking, Machine Learning, Natural Language Processing, Data Structures in Python, Web Development, Fuzzy Logic and Neural Networks
+  * MOOC: Data Structures in C++, Java and Object Oriented Programming, MongoDB, SQL, React Native and Redux, Linear Algebra, Deep Learning Specialization
 
 Work experience
 ======
-
 ## Cult.fit (Formerly Cure.fit)
 * Senior Full Stack Software Engineer (Jan 2023 - Jul 2024)
   * Implemented web scrapper scheduler engine for scrapping 10000+ 1P and competitor SKUs daily on marketplaces like Amazon, Flipkart, etc. providing visibility to market price sensitivity. Used webscraper.io and SmartProxy (3P) to dodge rate-limiting.
