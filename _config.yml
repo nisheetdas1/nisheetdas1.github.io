@@ -188,7 +188,7 @@ collections:
     output: false
     permalink: /:collection/:path/
   experience:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
