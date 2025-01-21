@@ -34,13 +34,13 @@ Work experience
   * Redefined address flows for the cult.sport e-commerce website adding new features like address editing, fetching current location, address auto-completion, address aliasing and order confirmation preview leading to 8% drop in O2C and address addition by 1.6.
   * Onboarded and maintained Appsmith and Retool on EC2 instances in the internal VPC, solving for 50+ internal business and operations dashboards.
   * Integrated and maintained MoEngage (3P) on the cult.sport e-commerce website for enabling event driven interaction and user experience personalisation. Solved for 1M+ daily user comms over various channels. Solved for 2-way interaction with Cure.fit tech infrastructure using AWS SQS and SNS.
-* Full Stack Software Engineer Feb 2020 - Dec 2022
+* Full Stack Software Engineer (Feb 2020 - Dec 2022)
   * Built a caching service using Node JS,AWS Lambda, Redis and MongoDB. Migrated the in-memory caches of several micro service servers.Achieved an overall 30% drop in MongoDB and MySQL load, significant reduction of infrastructure costs and reduced the startup time of micro service servers by around 20%.
   * Migrated critical endpoints from Node JS GatewayAPI to Spring Boot reducing the latencies from 350ms to less than 100ms.
   * Modelled and built an organisation wide cart service using Node js and MongoDB for aggregating user cart based on verticals.
   * Lead the front end track of Food Marketplace (Aggregator of healthy food vendors) building animated UI flows using react native, redux and styled components library.
   * Modelling and built order management, offers, discounts, user feedbacks and other critical flows of Food Marketplace.
-* Frontend Engineer Jun 2019 - Jan 2020
+* Frontend Engineer (Jun 2019 - Jan 2020)
   * Actively contributed to Cure.fit React-Crux, an open source UI library for CRUD operations on server side entities using fundamentals of React, flex-box and Redux.
   * Implemented numerous responsive, highly configurable and dynamic mobile application screens with optimized performance in react native and wiring them with the Gateway API layer (MVC architecture) using Node JS, Inversify JS and Typescript.
   
