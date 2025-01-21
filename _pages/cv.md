@@ -35,6 +35,10 @@ Work experience
 * Frontend Engineer (Jun 2019 - Jan 2020)
   * Actively contributed to Cure.fit React-Crux, an open source UI library for CRUD operations on server side entities using fundamentals of React, flex-box and Redux.
   * Implemented numerous responsive, highly configurable and dynamic mobile application screens with optimized performance in react native and wiring them with the Gateway API layer (MVC architecture) using Node JS, Inversify JS and Typescript.
+
+## South Eastern Coalfields Limited (SECL), Coal India Ltd.
+* Database Management Internship ((June 2017 - July 2017))
+  * Programming in a virtual environment in COBOL for employ data management in SECL Headquarter, Bilaspur.
   
 Skills
 ======
