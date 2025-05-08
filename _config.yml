@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Nisheet Das"
 title_separator          : "-"
 name                     : &name "Nisheet Das"
-description              : &description "Software Developer at Cult.fit"
+description              : &description "Graduate Student at Carnegie Mellon University"
 url                      : https://nisheetdas1.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nisheetdas1/nisheetdas1.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Nisheet Das"
   avatar           : "nisheetd.jpg"
-  bio              : "Master's in Information Systems at Carnegie Mellon University"
+  bio              : "Master's in Information Systems Management at Carnegie Mellon University"
   location         : "Pittsburgh, PA, USA"
   employer         : "Carnegie Mellon University (CMU)"
   pubmed           :
