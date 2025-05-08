@@ -188,7 +188,7 @@ collections:
     output: false
     permalink: /:collection/:path/
   experience:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 
@@ -238,7 +238,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
+      read_time: false
   # _portfolio
   - scope:
       path: ""
