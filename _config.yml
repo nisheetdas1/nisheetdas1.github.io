@@ -123,7 +123,8 @@ include:
   - _pages
   - files
   - projects
-  - index.html
+  - "*.html"
+  - "index.html"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
