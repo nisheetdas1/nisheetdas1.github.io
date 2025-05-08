@@ -18,23 +18,25 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {{ title }}
       {% endif %}
     </h2>
     
-    {% if post.venue %}
-      <p class="page__meta"><i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ post.venue }}</p>
-    {% endif %}
-    
-    {% if post.date and post.enddate %}
-      <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }} - {{ post.enddate | date: "%B %Y" }}</p>
-    {% elsif post.date %}
-      <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}</p>
-    {% endif %}
-    
-    {% if post.location %}
-      <p class="page__meta"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ post.location }}</p>
-    {% endif %}
+    <div class="experience-meta">
+      {% if post.venue %}
+        <p class="experience-venue"><i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ post.venue }}</p>
+      {% endif %}
+      
+      {% if post.date and post.enddate %}
+        <p class="experience-date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }} - {{ post.enddate | date: "%B %Y" }}</p>
+      {% elsif post.date %}
+        <p class="experience-date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %Y" }}</p>
+      {% endif %}
+      
+      {% if post.location %}
+        <p class="experience-location"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ post.location }}</p>
+      {% endif %}
+    </div>
     
     <div class="archive__item-excerpt" itemprop="description">
       {{ post.excerpt | markdownify }}
@@ -42,3 +44,17 @@
     </div>
   </article>
 </div>
+
+<style>
+  .experience-meta {
+    margin-bottom: 15px;
+    color: #717171;
+  }
+  .experience-venue, .experience-date, .experience-location {
+    margin: 0;
+    padding: 2px 0;
+  }
+  .archive__item-excerpt ul {
+    padding-left: 20px;
+  }
+</style>

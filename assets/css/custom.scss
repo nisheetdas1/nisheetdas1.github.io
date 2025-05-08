@@ -1,0 +1,42 @@
+---
+---
+
+/* Custom styles for the experience page */
+.page__content {
+  .archive__item-title {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+  
+  .archive__item {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #f2f3f3;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  .experience-meta {
+    margin-bottom: 1em;
+    color: #646769;
+    font-size: 0.85em;
+    
+    p {
+      margin: 0;
+      padding: 2px 0;
+    }
+  }
+  
+  .archive__item-excerpt {
+    ul {
+      margin: 0;
+      padding-left: 1.5em;
+      
+      li {
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+}
