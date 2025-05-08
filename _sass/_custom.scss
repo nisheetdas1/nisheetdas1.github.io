@@ -1,6 +1,3 @@
----
----
-
 /* Custom styles for the experience page */
 .page__content {
   .archive__item-title {
@@ -37,6 +34,31 @@
       li {
         margin-bottom: 0.5em;
       }
+    }
+  }
+}
+
+/* Project page styling */
+.project {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #f2f3f3;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+  }
+  
+  ul {
+    margin-top: 0.5em;
+    
+    li {
+      margin-bottom: 0.5em;
     }
   }
 }

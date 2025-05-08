@@ -1,0 +1,81 @@
+---
+layout: default
+title: "Projects"
+permalink: /projects/
+---
+
+<div class="container">
+  <h1>Projects</h1>
+  
+  <div class="project">
+    <h2>AI Sentiment Analysis Platform - CMU & Harley-Davidson Collaboration</h2>
+    <ul>
+      <li>Developed a Django web app using Hugging Face, PyTorch, NumPy, and pandas for automated sentiment analysis of user comments.</li>
+      <li>Implemented a responsive UI with Django templates and CSS, applying Harley-Davidson's signature color scheme and typography.</li>
+      <li>Containerized the application with Docker and delivered a production-ready image for Harley-Davidson's internal deployment.</li>
+    </ul>
+  </div>
+  
+  <div class="project">
+    <h2>Movie Recommender System</h2>
+    <ul>
+      <li>Deployed Django application on a VM with load balancer using Docker containerization and SQLite database serving 1M users.</li>
+      <li>Automated CI/CD pipelines using Jenkins for deployment and GitHub Actions for PR test automation using Nose2 Python library.</li>
+      <li>Integrated collaborative filtering model with telemetry to track drift using Prometheus and Grafana, with automated model retraining.</li>
+    </ul>
+  </div>
+  
+  <div class="project">
+    <h2>Goal Keeper (GoalLive)</h2>
+    <ul>
+      <li>Implemented a Streamlit-based Python application to identify user's free time slots using Google Calendar API.</li>
+      <li>Recommended football matches, nearby restaurants (via geolocation and Yelp API), and online match streaming options.</li>
+      <li>Scraped match schedules using Selenium headless browser (Chrome) driver and improved performance through caching.</li>
+    </ul>
+  </div>
+  
+  <div class="project">
+    <h2>Covi-help Mobile Application</h2>
+    <ul>
+      <li>Developed a cross-platform react native application leveraging the Government of India open source RESTful APIs as data source.</li>
+      <li>Integrated AWS Code Pipeline for CI/CD, AWS EC2 hosted Inversify.js RESTful web service, and Redis for caching static data for avoiding rate-limiting and AWS S3 and CloudFront CDN for storing and caching static and dynamic assets.</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .project:last-child {
+    border-bottom: none;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+</style>
