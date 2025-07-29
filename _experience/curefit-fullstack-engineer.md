@@ -9,8 +9,6 @@ location: "Bangalore, India"
 enddate: 2024-07-01
 ---
 
-**Backend focused Full Stack Engineer** with 5 years of zero-to-one engineering ownership, designing and scaling mission-critical services for India's leading fitness tech unicorn.
-
 ## Senior Full Stack Software Engineer - E-Commerce
 **January 2023 - July 2024**
 
