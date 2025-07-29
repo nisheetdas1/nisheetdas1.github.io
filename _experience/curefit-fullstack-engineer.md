@@ -11,25 +11,29 @@ enddate: 2024-07-01
 
 **Backend focused Full Stack Engineer** with 5 years of zero-to-one engineering ownership, designing and scaling mission-critical services for India's leading fitness tech unicorn.
 
-## Key Achievements
+## Senior Full Stack Software Engineer - E-Commerce
+**January 2023 - July 2024**
 
-### Revenue & Business Impact
-* **Designed and led the integration of Cult.sport** into an internal telesales platform, including product modeling, discount logic, customer lifecycle management, and telesales agent UI, **driving a 10% revenue increase**
-* **Cross-functioned with central payments team** to implement a multi-tenant delayed/failed payments and fulfillment processor, addressing payment gateway webhook delays/failures. **Increased conversion rates by 3.9% and net revenue by 0.8%**
-* **Redesigned address management flows** for Cult.sport, adding features like address editing, auto-completion, location detection, and order confirmation, **reducing order cancellations by 8% and increasing addresses added per user by 1.6**
+* Defined and modeled a backend service for end-to-end integration of Cult.sport vertical into an internal telesales system, designed discounting constructs, and developed a functional UI using React, leading to a **10% increase in overall Cult.sport revenue**
+* Developed a web scraper scheduler engine to scrape over **10,000 SKUs daily** from marketplaces like Amazon and Flipkart, leveraging webscraper.io and SmartProxy to bypass rate-limiting, enabling market price sensitivity analysis
+* Partnered with central payments and cross-functional teams to implement a multi-tenant delayed payments and fulfillment processor, addressing payment gateway webhook delays and **increasing conversion rates by 3.9% and net revenue by 0.8%**
+* Redesigned address flows for the cult.sport e-commerce platform, introducing features like address editing, location fetching, auto-completion, aliasing, and order confirmation previews, **reducing O2C by 8%** and improving address addition rates by **1.6 per user**
+* Spearheaded the deployment and administration of Appsmith and Retool on EC2 instances within a secure internal VPC, enabling VPN only access and seamless integration with internal services to power **100+ business-critical dashboards**
+* Integrated and maintained MoEngage on cult.sport website for personalized event-driven CRM interactions, managing over **1M daily user communications** across channels and enabling two-way interaction with internal infrastructure using AWS SQS and SNS
 
-### System Performance & Scale
-* **Optimized system performance** by building a caching service, onboarding in-memory caches for multiple micro-services. **Led to 30% drop in database load, lower infrastructure costs and ~20% faster server startup times** through AWS Lambda triggers
-* **Built a web scraping scheduler engine** to extract 10,000+ SKUs daily from marketplaces using webscraper.io and SmartProxy, **saving ~3 days/week of manual effort by 3 analysts** and accelerating pricing decisions and catalog quality
-* **Migrated critical endpoints** from Node.js Backend-for-Frontend (BFF) to Spring Boot **reducing latency from 350ms to ~100ms**
+## Full Stack Software Engineer
+**February 2020 - December 2022**
 
-### Infrastructure & Developer Productivity
-* **Drove a strategic initiative** to deploy low-code tools Appsmith and Retool on EC2 instances within a secure VPC with VPN-only access, integrating with internal services to **power 100+ critical dashboards and cutting development time by ~80%**
-* **Integrated MoEngage** on Cult.sport for personalized event-driven CRM interactions, **supporting ~1M daily user communications and 1M website events**. Enabled two-way interaction with internal services using SQS, **handling ~100k daily events**
+* Optimized system performance by building a caching service, migrating in-memory caches for multiple micro-services, resulting in a **30% reduction in database load**, lower infrastructure costs, and **~20% faster server startup times** through AWS Lambda triggers
+* Migrated critical endpoints from Node.js API Gateway to Spring Boot **reducing latencies from 350ms to less than 100ms**
+* Designed and implemented an organization-wide cart service using Node.js and MongoDB to aggregate user carts across verticals, improving scalability and data consistency. Employed periodic cache refresh for high performance
+* Led the frontend development of Food Marketplace platform, building animated UI flows with React Native, Redux, and Styled Components, while also developing backend services for order management, offers, discounts, and user feedback
 
-### Product Development
-* **Led frontend development** of Food Marketplace app from scratch using React Native and Redux; built Node.js/TypeScript backend supporting orders, taxes, discounts, and user feedback, **onboarding 200+ vendors and 50k+ users within 6 months**
-* **Developed responsive mobile screens** in React Native and integrated with a Node.js Backend-for-Frontend (BFF) using Inversify.js and TypeScript, ensuring user data privacy and security through minimal and controlled data exposure
+## Frontend Engineer
+**June 2019 - January 2020**
+
+* Contributed to Cure.fit React-Crux, an open-source UI design library, by building CRUD operations for server-side entities using React, Redux, and Flexbox, enhancing UI modularity and functionality
+* Developed responsive mobile application screens in React Native and integrated with Gateway API layer / Backend-for-frontend (BFF) layer (Singleton and Factory Design Patterns) using Node.js, Inversify.js and TypeScript for seamless data flow
 
 ## Technical Stack
 * **Backend**: Spring Boot, Node.js, Express.js, TypeScript
